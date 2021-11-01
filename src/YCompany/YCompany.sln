@@ -7,13 +7,19 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{D5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Claims", "Claims", "{0B66ACF0-46B1-4D47-9EDA-8B882EF830D3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.API", "Services\Claims\Claims.API\Claims.API.csproj", "{9C31C602-47FA-488F-807E-BAF975AE7E60}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Claims.API", "Services\Claims\Claims.API\Claims.API.csproj", "{9C31C602-47FA-488F-807E-BAF975AE7E60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Application", "Services\Claims\Claims.Application\Claims.Application.csproj", "{ECC71A0B-2C2C-4229-9E6E-61C5A365213C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Claims.Application", "Services\Claims\Claims.Application\Claims.Application.csproj", "{ECC71A0B-2C2C-4229-9E6E-61C5A365213C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Domain", "Services\Claims\Claims.Domain\Claims.Domain.csproj", "{27E3441D-D8EF-44FE-BEE4-D8B46EBCF123}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Claims.Domain", "Services\Claims\Claims.Domain\Claims.Domain.csproj", "{27E3441D-D8EF-44FE-BEE4-D8B46EBCF123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Claims.Infrastructure", "Services\Claims\Claims.Infrastructure\Claims.Infrastructure.csproj", "{85F1AFAA-FC6F-4795-AF0D-861151739521}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Claims.Infrastructure", "Services\Claims\Claims.Infrastructure\Claims.Infrastructure.csproj", "{85F1AFAA-FC6F-4795-AF0D-861151739521}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{3464C05A-3E69-4EB8-B3CC-7792C62A5FCF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{9B5F3D4A-5F96-4F46-A2AC-DEA7F69D5B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "EventBus.Messages\EventBus.Messages.csproj", "{2C322084-14A4-4D99-B429-7F688CD126E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +43,14 @@ Global
 		{85F1AFAA-FC6F-4795-AF0D-861151739521}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85F1AFAA-FC6F-4795-AF0D-861151739521}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85F1AFAA-FC6F-4795-AF0D-861151739521}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3464C05A-3E69-4EB8-B3CC-7792C62A5FCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3464C05A-3E69-4EB8-B3CC-7792C62A5FCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3464C05A-3E69-4EB8-B3CC-7792C62A5FCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3464C05A-3E69-4EB8-B3CC-7792C62A5FCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C322084-14A4-4D99-B429-7F688CD126E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C322084-14A4-4D99-B429-7F688CD126E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C322084-14A4-4D99-B429-7F688CD126E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C322084-14A4-4D99-B429-7F688CD126E5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,6 +61,7 @@ Global
 		{ECC71A0B-2C2C-4229-9E6E-61C5A365213C} = {0B66ACF0-46B1-4D47-9EDA-8B882EF830D3}
 		{27E3441D-D8EF-44FE-BEE4-D8B46EBCF123} = {0B66ACF0-46B1-4D47-9EDA-8B882EF830D3}
 		{85F1AFAA-FC6F-4795-AF0D-861151739521} = {0B66ACF0-46B1-4D47-9EDA-8B882EF830D3}
+		{2C322084-14A4-4D99-B429-7F688CD126E5} = {9B5F3D4A-5F96-4F46-A2AC-DEA7F69D5B79}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {870C8445-96DE-43E2-89B8-4F0B9D0BD686}

@@ -7,6 +7,10 @@ EXPOSE 80
 FROM mcr.microsoft.com/dotnet/sdk:5.0 AS build
 WORKDIR /src
 COPY ["Services/Claims/Claims.API/Claims.API.csproj", "Services/Claims/Claims.API/"]
+COPY ["Services/Claims/Claims.Infrastructure/Claims.Infrastructure.csproj", "Services/Claims/Claims.Infrastructure/"]
+COPY ["Services/Claims/Claims.Application/Claims.Application.csproj", "Services/Claims/Claims.Application/"]
+COPY ["Services/Claims/Claims.Domain/Claims.Domain.csproj", "Services/Claims/Claims.Domain/"]
+COPY ["EventBus.Messages/EventBus.Messages.csproj", "EventBus.Messages/"]
 RUN dotnet restore "Services/Claims/Claims.API/Claims.API.csproj"
 COPY . .
 WORKDIR "/src/Services/Claims/Claims.API"

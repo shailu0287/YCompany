@@ -1,0 +1,29 @@
+version: '3.4'
+
+services:
+  claimdb:
+    container_name: claimdb
+    environment:
+        SA_PASSWORD: "SwN12345678"
+        ACCEPT_EULA: "Y"
+    restart: always
+    ports:
+        - "1434:1434"
+  
+  rabbitmq:
+    container_name: rabbitmq1
+    restart: always
+    ports:
+        - "5672:5672"
+        - "15672:15672"
+
+  claims.api:
+    container_name: claim.api
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - "ConnectionStrings:ClaimConnectionString=Server=claimdb;Database=ClaimDb;User Id=sa;Password=SwN12345678"
+      - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
+    depends_on:
+      - claimdb
+    ports:
+      - "8000:80"

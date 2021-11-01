@@ -1,0 +1,13 @@
+services:
+  claims.api:
+    build:
+      context: C:\Users\shailen203\source\repos\YCompany\src\YCompany
+      dockerfile: Services/Claims/Claims.API/Dockerfile
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+    image: claimsapi
+    ports:
+    - target: 80
+  orderdb:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+version: '3.4'

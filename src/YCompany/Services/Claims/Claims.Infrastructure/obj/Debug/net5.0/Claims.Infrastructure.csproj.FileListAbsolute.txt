@@ -3,3 +3,15 @@ C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.In
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\obj\Debug\net5.0\Claims.Infrastructure.AssemblyInfoInputs.cache
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\obj\Debug\net5.0\Claims.Infrastructure.AssemblyInfo.cs
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\obj\Debug\net5.0\Claims.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\bin\Debug\net5.0\Claims.Infrastructure.deps.json
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\bin\Debug\net5.0\Claims.Infrastructure.dll
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\bin\Debug\net5.0\ref\Claims.Infrastructure.dll
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\bin\Debug\net5.0\Claims.Infrastructure.pdb
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\bin\Debug\net5.0\Claims.Application.dll
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\bin\Debug\net5.0\Claims.Domain.dll
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\bin\Debug\net5.0\Claims.Application.pdb
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\bin\Debug\net5.0\Claims.Domain.pdb
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\obj\Debug\net5.0\Claims.Infrastructure.csproj.CopyComplete
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\obj\Debug\net5.0\Claims.Infrastructure.dll
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\obj\Debug\net5.0\ref\Claims.Infrastructure.dll
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Infrastructure\obj\Debug\net5.0\Claims.Infrastructure.pdb

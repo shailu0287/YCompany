@@ -2,7 +2,6 @@ C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Do
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\bin\Debug\net5.0\Claims.Domain.dll
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\bin\Debug\net5.0\ref\Claims.Domain.dll
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\bin\Debug\net5.0\Claims.Domain.pdb
-C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Debug\net5.0\Claims.Domain.csproj.AssemblyReference.cache
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Debug\net5.0\Claims.Domain.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Debug\net5.0\Claims.Domain.AssemblyInfoInputs.cache
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Debug\net5.0\Claims.Domain.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Do
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Debug\net5.0\Claims.Domain.dll
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Debug\net5.0\ref\Claims.Domain.dll
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Debug\net5.0\Claims.Domain.pdb
+C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Debug\net5.0\Claims.Domain.csproj.AssemblyReference.cache

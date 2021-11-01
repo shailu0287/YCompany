@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  claimdb:
+    image: mcr.microsoft.com/mssql/server:2017-latest
+  claims.api:
+    image: ${DOCKER_REGISTRY-}claimsapi
+    build:
+      context: .
+      dockerfile: Services/Claims/Claims.API/Dockerfile
+
+  rabbitmq:
+    image: rabbitmq:3-management-alpine
