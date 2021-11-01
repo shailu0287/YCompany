@@ -19,7 +19,7 @@ Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-co
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Building Blocks", "Building Blocks", "{9B5F3D4A-5F96-4F46-A2AC-DEA7F69D5B79}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "EventBus.Messages\EventBus.Messages.csproj", "{2C322084-14A4-4D99-B429-7F688CD126E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EventBus.Messages", "EventBus.Messages\EventBus.Messages.csproj", "{2C322084-14A4-4D99-B429-7F688CD126E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -13,3 +13,17 @@ C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Ap
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\Claims.Application.dll
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\ref\Claims.Application.dll
 C:\Users\shailen203\source\repos\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\Claims.Application.pdb
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\bin\Debug\net5.0\Claims.Application.deps.json
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\bin\Debug\net5.0\Claims.Application.dll
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\bin\Debug\net5.0\ref\Claims.Application.dll
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\bin\Debug\net5.0\Claims.Application.pdb
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\bin\Debug\net5.0\Claims.Domain.dll
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\bin\Debug\net5.0\Claims.Domain.pdb
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\Claims.Application.csproj.AssemblyReference.cache
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\Claims.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\Claims.Application.AssemblyInfoInputs.cache
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\Claims.Application.AssemblyInfo.cs
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\Claims.Application.csproj.CoreCompileInputs.cache
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\Claims.Application.dll
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\ref\Claims.Application.dll
+C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Debug\net5.0\Claims.Application.pdb

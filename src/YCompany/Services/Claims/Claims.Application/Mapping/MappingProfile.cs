@@ -8,7 +8,7 @@ namespace Claims.Application.Mapping
     {
         public MappingProfile()
         {
-            CreateMap<Claims.Domain.Entities.Claims, Features.Claims.Queries.ClaimVm>().ReverseMap();
+            CreateMap<Claims.Domain.Entities.Claims, Features.Claims.Queries.GetClaimList.ClaimVm>().ReverseMap();
             CreateMap<Claims.Domain.Entities.Claims, CreateClaimCommand>().ReverseMap();
         }
     }

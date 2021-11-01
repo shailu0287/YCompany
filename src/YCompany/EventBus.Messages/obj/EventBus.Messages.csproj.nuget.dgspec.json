@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj": {}
+    "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj": {
+    "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj",
+        "projectUniqueName": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj",
         "projectName": "EventBus.Messages",
-        "projectPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj",
-        "packagesPath": "C:\\Users\\shailen203\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\EventBus.Messages\\obj\\",
+        "projectPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj",
+        "packagesPath": "C:\\Users\\shailendrasharma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\EventBus.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shailen203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shailendrasharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

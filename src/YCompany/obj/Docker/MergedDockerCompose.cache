@@ -1,11 +1,54 @@
 services:
+  claimdb:
+    container_name: claimdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: SwN12345678
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 1433
+      published: 1433
+      protocol: tcp
+    restart: always
   claims.api:
     build:
-      context: C:\Users\shailen203\source\repos\YCompany\src\YCompany
+      context: .
       dockerfile: Services/Claims/Claims.API/Dockerfile
+    container_name: claim.api
+    depends_on:
+      claimdb:
+        condition: service_started
     environment:
       ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:ClaimConnectionString: Server=claimdb;Database=ClaimDb;User
+        Id=sa;Password=SwN12345678
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
     image: claimsapi
+    networks:
+      default: null
     ports:
-    - target: 80
-version: '3.4'
+    - mode: ingress
+      target: 80
+      published: 8000
+      protocol: tcp
+  rabbitmq:
+    container_name: rabbitmq1
+    image: rabbitmq:3-management-alpine
+    networks:
+      default: null
+    ports:
+    - mode: ingress
+      target: 5672
+      published: 5672
+      protocol: tcp
+    - mode: ingress
+      target: 15672
+      published: 15672
+      protocol: tcp
+    restart: always
+networks:
+  default:
+    name: dockercompose3743463420172864968_default

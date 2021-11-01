@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj": {}
+    "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj": {
+    "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj",
+        "projectUniqueName": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj",
         "projectName": "Claims.Application",
-        "projectPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj",
-        "packagesPath": "C:\\Users\\shailen203\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\obj\\",
+        "projectPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj",
+        "packagesPath": "C:\\Users\\shailendrasharma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shailen203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shailendrasharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,8 +28,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj": {
-                "projectPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj"
+              "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj": {
+                "projectPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj"
               }
             }
           }
@@ -84,21 +84,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj": {
+    "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj",
         "projectName": "Claims.Domain",
-        "projectPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj",
-        "packagesPath": "C:\\Users\\shailen203\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\obj\\",
+        "projectPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\Claims.Domain.csproj",
+        "packagesPath": "C:\\Users\\shailendrasharma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shailen203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shailendrasharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -138,21 +138,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj": {
+    "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj",
         "projectName": "Claims.Infrastructure",
-        "projectPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\shailen203\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\shailendrasharma\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\shailen203\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\shailendrasharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -166,8 +166,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj": {
-                "projectPath": "C:\\Users\\shailen203\\source\\repos\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj"
+              "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj": {
+                "projectPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj"
               }
             }
           }
@@ -210,7 +210,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

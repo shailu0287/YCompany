@@ -8,11 +8,12 @@ using Claims.Application.Features.Claims.Queries;
 using System.Net;
 using Claims.Application.Features.Claims.Commands.CreateClaim;
 using Microsoft.AspNetCore.Http;
-using Claims.Application.Features.Claims.Queries.GetClaimDetails;
+using Claims.Application.Features.Claims.Queries.GetClaimList;
 using MassTransit;
 using AutoMapper;
 using EventBus.Messages.Events;
 using Claims.API.Entities;
+using Claims.Application.Features.Claims.Queries.GetClaimList;
 
 namespace Claims.API.Controllers
 {
@@ -32,7 +33,7 @@ namespace Claims.API.Controllers
 
         [HttpGet("{policyNumber}", Name = "GetClaim")]
         [ProducesResponseType(typeof(IEnumerable<ClaimVm>), (int)HttpStatusCode.OK)]
-        public async Task<ActionResult<IEnumerable<ClaimVm>>> GetClaimByPolicyNumber(string policyNumber)
+        public async Task<ActionResult<List<ClaimVm>>> GetClaimByPolicyNumber(string policyNumber)
         {
             var query = new GetClaimDetailsQuery(policyNumber);
             var claim = await _mediator.Send(query);
@@ -40,7 +41,7 @@ namespace Claims.API.Controllers
         }
         [HttpPost(Name = "CreateClaim")]
         [ProducesResponseType((int)HttpStatusCode.OK)]
-        public async Task<ActionResult<int>> CheckoutOrder([FromBody] CreateClaimCommand command)
+        public async Task<ActionResult<int>> CreateClaim([FromBody] CreateClaimCommand command)
         {
             var result = await _mediator.Send(command);
             Claim objClaim = new Claim();
