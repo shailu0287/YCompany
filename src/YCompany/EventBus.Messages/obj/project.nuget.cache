@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "W9T3/Tfq6Lzwa3oRXWSS5liqFgVCI4h286zxtn39Yey04wnALIjomBKSG1PHnO95myvzJ+fTAbUMbwOFmbSlCg==",
+  "dgSpecHash": "gKt2julemlBcDap/FRaqV8kNF1YRCAiNUIHeWJ9pQ48LF5yGh/KObVRifjfUlla5NZb4JYsCcGYlYNyKfw4pxw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj",
+  "projectFilePath": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\EventBus.Messages\\EventBus.Messages.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

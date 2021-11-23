@@ -1,0 +1,38 @@
+services:
+  claimdb:
+    container_name: claimdb
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: SwN12345678
+    image: mcr.microsoft.com/mssql/server:2017-latest
+    ports:
+    - published: 1412
+      target: 1433
+    restart: always
+  claims.api:
+    build:
+      context: C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany
+      dockerfile: Services/Claims/Claims.API/Dockerfile
+    container_name: claim.api
+    depends_on:
+      claimdb:
+        condition: service_started
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings:ClaimConnectionString: Server=claimdb;Database=ClaimDb;User
+        Id=sa;Password=SwN12345678
+      EventBusSettings:HostAddress: amqp://guest:guest@rabbitmq:5672
+    image: claimsapi
+    ports:
+    - published: 8000
+      target: 80
+  rabbitmq:
+    container_name: rabbitmq1
+    image: rabbitmq:3-management-alpine
+    ports:
+    - published: 5672
+      target: 5672
+    - published: 15672
+      target: 15672
+    restart: always
+version: '3.4'

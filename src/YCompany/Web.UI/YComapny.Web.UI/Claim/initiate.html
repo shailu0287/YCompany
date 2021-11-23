@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	
+
+ <style>
+
+body{
+
+	background-color: ;
+}
+
+
+#txt{
+
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	outline: none;
+	border-bottom-color: #07eb7d ;
+}
+
+
+button {
+	border-radius: 20px;
+	border: 1px solid #FF4B2B;
+	background-color: #1189cf;
+	color: #FFFFFF;
+	font-size: 12px;
+	font-weight: bold;
+	padding: 12px 45px;
+	letter-spacing: 1px;
+	
+	transition: transform 80ms ease-in;
+
+	
+}
+
+button:hover
+{
+
+	
+	background-color: #07eb7d;
+	
+	
+	
+}
+
+
+    </style>
+
+</head>
+<body>
+
+<div class="container-fluid">
+	<div class="row">
+		<div class="col-md-12">
+			<div align="center" style="background-color:cornflowerblue; margin-top:5%; font-size: 20px; color: antiquewhite;">
+		Transport Insurance Details</div>
+		</div>
+	</div>
+</div>
+
+<hr style="background-color:red;">
+
+
+
+<div class="container">
+	
+	<div class="row" style="margin-top: 10%;">
+		<div class="col-md-4">
+		<input type="text" id="txt"  name="pn" placeholder="Policy Number" required="required">
+		</div>
+
+		<div class="col-md-4">
+			<input type="text" id="txt" name="cn"  placeholder="Claim Number" required="required">
+		</div>
+
+		<div class="col-md-4">
+			<input type="text" id="txt" name="vn"  placeholder="Vehicle Number" required="required">
+		</div>
+	</div>
+
+
+
+	<div class="row" style="margin-top:5%;" >
+		<div class="col-md-12" >
+			<div align="center" style="background-color: aqua; color: white; font-weight: bold; ">
+				Insured Details
+			</div>
+		</div>
+
+	</div>
+
+
+
+	<div class="row" style="margin-top: 5%;">
+		<div class="col-md-4">
+		<input type="text" id="txt" name="name"  placeholder="Name" required="required">
+		</div>
+
+		<div class="col-md-4">
+			<input type="text" id="txt" name="add"  placeholder="Address" required="required">
+		</div>
+
+		<div class="col-md-4">
+			<input type="text" id="txt" name="city"  placeholder="City" required="required">
+		</div>
+	</div>
+
+
+
+	<div class="row" style="margin-top: 5%;">
+		<div class="col-md-4">
+		<input type="text" id="txt" name="mn"  placeholder="Mobile-No" required="required">
+		</div>
+
+		<div class="col-md-4">
+			<input type="text" name="em" id="txt"  placeholder="Email-Id" required="required">
+		</div>
+
+		<div class="col-md-4">
+			<input type="text" name="pc" id="txt"  placeholder="Pin Code" required="required">
+		</div>
+	</div>
+
+
+
+	<div class="row" style="margin-top: 5%;">
+		<div class="col-md-12">
+			<div>
+		      <input type="text" name="mn" id="txt"  placeholder="Mobile-No" required="required">
+	        </div>
+		</div>
+
+		
+	</div>
+
+
+
+	<div class="row" style="margin-top: 5%;">
+		<div class="col-md-12">
+
+			<div align="center" style="background-color: aqua; color: white; font-weight: bold; ">
+				Loss Details
+	        </div>
+		</div>
+
+		
+	 </div>
+
+
+	 <div class="row" style="margin-top:5%;">
+		<div class="col-md-4">
+			
+			<div>
+		      <input type="date" id="txt" name="date"  placeholder="Date" required="required">
+	        </div>
+
+		</div>
+
+       <div class="col-md-4">
+       	   <div>
+		       <input type="time" id="txt" name="time"  placeholder="Time" required="required">
+	        </div>
+
+	    </div>
+
+	    <div class="col-md-4">
+       	   <div>
+		       <input type="text" id="txt" name="poa"  placeholder="place Of Accident" required="required">
+	        </div>
+
+	    </div>
+
+	    
+
+	 </div>
+
+
+	  <div class="row" style="margin-top:5%;">
+
+	 	<div class="col-md-3">
+	 		<div>Type Of Loss</div>
+	 	</div>
+
+	 	<div class="col-md-3">
+	 		<div>
+	 			Own Damage<input type="checkbox" name="" style="margin-left: 5%;">
+	 		</div>
+	 	</div>
+
+	 	<div class="col-md-3">
+	 		<div>
+	 			Theft<input type="checkbox" name="" style="margin-left: 5%;">
+	 		</div>
+	 	</div>
+
+	 	<div class="col-md-3">
+	 		<div>
+	 			Third Party<input type="checkbox" name="" style="margin-left: 5%;">
+	 		</div>
+	 	</div>
+	 	
+	  </div>
+
+
+
+	  <div class="row" style="margin-top:5%;">
+	  	<div class="col-md-12">
+	  		<div>
+	  			<input type="text" id="txt" name="sdoa" placeholder="Short Description Of Accident" style="width:100%;">
+	  		</div>
+	  	</div>
+	  </div>
+
+	  <div class="row" style="margin-top:5%;" >
+		<div class="col-md-12" >
+			<div align="center" style="background-color: aqua; color: white; font-weight: bold; ">
+				Driver Details At The Time Of Accident
+			</div>
+		</div>
+
+	</div>
+
+	<div class="row" style="margin-top:5%;">
+		
+		<div class="col-md-3">
+			<div>
+				<input type="text"  id="txt" name="na" placeholder="Name" required>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div>
+				<input type="text" id="txt" name="ag" placeholder="Age" required>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div>
+				<input type="text" id="txt" name="dln" placeholder="Driving License No" required>
+			</div>
+		</div>
+
+		<div class="col-md-3">
+			<div>
+				<input type="text" id="txt" name="nor" placeholder="Name Of RTO" required>
+			</div>
+		</div>
+
+	</div>
+
+
+	<div class="row" style="margin-top:5%;">
+		
+		<div class="col-md-4">
+			<div>Learner License</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+	 			Yes<input type="checkbox" name="" style="margin-left: 5%;">
+	 		</div>
+		</div>
+
+		<div class="col-md-4">
+			<div>
+	 			No<input type="checkbox" name="" style="margin-left: 5%;">
+	 		</div>
+		</div>
+
+		</div>
+
+          <div class="row" style="margin-top:5%;">
+          	
+          	<div class="col-md-12">
+          		<input type="text" id="txt" name="cpd" placeholder="Co-Passenger-Details" style="width:100%;">
+          	</div>
+
+          </div>
+
+</div>
+
+
+
+
+-
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div align="center" style="background-color:aqua; margin-top:5%; font-weight: bold; color: white;">
+		Applicable For Commercial Vehicle</div>
+		</div>
+	</div>
+</div>
+
+
+<div class="container">
+
+	<div class="row" style="margin-top:5%;">
+		
+		<div class="col-md-6">
+			<select id="txt" class="form-control" name="drppass" required>
+
+                    <option value="Select Passenger">No Of Passenger at the time of Accident</option>
+                    <option value="2"> 2 </option>
+                    <option value="3"> 3 </option>
+                    <option value="4"> 4 </option>
+                    <option value="5"> 5 </option>
+
+            </select>
+		</div>
+
+		<div class="col-md-6">
+			<input type="" id="txt" name="grn" placeholder="GR Number & Date" required>
+		</div>
+
+	</div>
+
+	<div class="row" style="margin-top:5%;">
+		
+		<div class="col-md-3">
+			<input type="" id="txt" name="pn" placeholder="Permit No" required>
+		</div>
+
+		<div class="col-md-3">
+			<input type="" id="txt" name="pia" placeholder="Permit Issuing Authority" required>
+		</div>
+
+		<div class="col-md-3">
+			<input type="" id="txt" name="pvut" placeholder="Permit Valid Up To" required>
+		</div>
+
+		<div class="col-md-3">
+			<input type="" id="txt" name="pvf" placeholder="Permit Valid For (Area)" required>
+		</div>
+
+	</div>
+
+	<div class="row" style="margin-top:5%;">
+		
+		<div class="col-md-6">
+			<input type="" style="width:100%;" id="txt" name="fg" placeholder="Fitness Granting Authority" required>
+		</div>
+
+		<div class="col-md-6">
+			<input type="" style="width:100%;" id="txt" name="fvut" placeholder="Fitness Valid Up To" required>
+		</div>
+
+	</div>
+
+
+
+	
+	<div class="row">
+		<div class="col-md-12">
+			<div align="center" style="background-color:aqua; margin-top:5%; font-weight: bold;  color: white;">
+		Applicable For Third Party Property Damage Or Injury</div>
+		</div>
+	</div>
+
+
+	<div class="row">
+		<div class="col-md-12">
+			
+			<table class="table" style="margin-top:5%;">
+				<tr style="color: cornflowerblue;">
+					<th>Name Of Third Party / Occupants Driver</th>
+					<th>Contact No</th>
+					<th>Type Of Injury</th>
+					<th>Name Of The Hospital Where Addmitted</th>
+					<th>Any Legal Court Notice Received</th>
+				</tr>
+               
+               <tr>
+               	<td><input type="text" id="txt" name="t1" required></td>
+               	<td><input type="text" id="txt" name="t2" required></td>
+               	<td><input type="text" id="txt" name="t3" required></td>
+               	<td><input type="text" id="txt" name="t4" required></td>
+               	<td><input type="text" id="txt" name="t5" required></td>
+
+               </tr>
+
+               <tr>
+               	<td><input type="text" id="txt" name="t1" required></td>
+               	<td><input type="text" id="txt" name="t2" required></td>
+               	<td><input type="text" id="txt" name="t3" required></td>
+               	<td><input type="text" id="txt" name="t4" required></td>
+               	<td><input type="text" id="txt" name="t5" required></td>
+
+               </tr>
+
+               <tr>
+               	<td><input type="text" id="txt" name="t1" required></td>
+               	<td><input type="text" id="txt" name="t2" required></td>
+               	<td><input type="text" id="txt" name="t3" required></td>
+               	<td><input type="text" id="txt" name="t4" required></td>
+               	<td><input type="text" id="txt" name="t5" required></td>
+
+               </tr>
+
+               <tr>
+               	<td><input type="text" id="txt" name="t1" required></td>
+               	<td><input type="text" id="txt" name="t2" required></td>
+               	<td><input type="text" id="txt" name="t3" required></td>
+               	<td><input type="text" id="txt" name="t4" required></td>
+               	<td><input type="text" id="txt" name="t5" required></td>
+
+               </tr>
+
+			</table>
+
+		</div>
+	</div>
+
+
+
+	<div class="row" style="margin-top:;">
+		<div class="col-md-12">
+			<div align="center" style="background-color:aqua; margin-top:5%; font-weight: bold;  color: white;">
+		I hereby declare having submitted the following documents</div>
+		</div>
+	</div>
+
+
+   <div class="row" style="margin-top:5%;">
+   	    
+   	    <div class="col-md-6">
+   	    	<div>
+   	    		
+	 			Copy Of Policy<input type="checkbox"  style="margin-left: 5%;">
+	 		</div>
+
+	 		<div>
+   	    		
+	 			Copy Of RC Book<input type="checkbox" style="margin-left: 5%;">
+	 		</div>
+
+	 		<div>
+   	    		
+	 			Copy Of Driving License<input type="checkbox"  style="margin-left: 5%;">
+	 		</div>
+
+	 		<div>
+   	    		
+	 			Estimate Of Repair<input type="checkbox"  style="margin-left: 5%;">
+	 		</div>
+   	    	
+   	    </div>
+
+   	    <div class="col-md-6">
+   	    	<div>
+   	    		
+	 			Copy Of Fitness Certificate<input type="checkbox"  style="margin-left: 5%;">
+	 		</div>
+
+	 		<div>
+   	    		
+	 			Copy Of Permit<input type="checkbox"  style="margin-left: 5%;">
+	 		</div>
+
+	 		<div>
+   	    		
+	 			Copy Of FIR<input type="checkbox"  style="margin-left: 5%;">
+	 		</div>
+
+	 		<div>
+   	    		
+	 			GR Form<input type="checkbox"  style="margin-left: 5%;">
+	 		</div>
+   	    	
+   	    </div>
+
+
+   </div>
+
+   <div class="row" style="margin-top:5%;">
+   	<div class="col-md-12" align="center">
+   		<button id="login" style="cursor: pointer;"> Submit </button>
+   	</div>
+   </div>
+
+	
+</div>
+
+</body>
+</html>

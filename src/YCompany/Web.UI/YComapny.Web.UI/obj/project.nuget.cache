@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "hIxqdnLVO1ceiLDMkCel1nlxbrn2GBdmK05xXIbWhVQxqwQ2yHO+n9oYWV8G00WQ8a+BdcR+qVQ6YPv3qyYsxg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\YComapny.Web.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shailendrasharma\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512"
+  ],
+  "logs": []
+}

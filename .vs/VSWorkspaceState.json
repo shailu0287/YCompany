@@ -1,4 +1,12 @@
 {
-  "ExpandedNodes": [],
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\YCompany",
+    "\\src\\YCompany\\Services",
+    "\\src\\YCompany\\Services\\Claims",
+    "\\src\\YCompany\\Services\\Claims\\Claims.API"
+  ],
+  "SelectedNode": "\\src\\YCompany\\YCompany.sln",
   "PreviewInSolutionExplorer": false
 }

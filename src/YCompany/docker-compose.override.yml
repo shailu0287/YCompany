@@ -21,7 +21,7 @@ services:
     container_name: claim.api
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
-      - "ConnectionStrings:ClaimConnectionString=Server=claimdb;Database=ClaimDb;User Id=sa;Password=SwN12345678"
+      - "ConnectionStrings:ClaimConnectionString=Server=20.84.239.113;Database=ClaimDb;User Id=sa;Password=SwN12345678"
       - "EventBusSettings:HostAddress=amqp://guest:guest@rabbitmq:5672"
     depends_on:
       - claimdb

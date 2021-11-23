@@ -1,0 +1,11 @@
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\bin\Release\net5.0\Claims.Domain.deps.json
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\bin\Release\net5.0\Claims.Domain.dll
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\bin\Release\net5.0\ref\Claims.Domain.dll
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\bin\Release\net5.0\Claims.Domain.pdb
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\Claims.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\Claims.Domain.AssemblyInfoInputs.cache
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\Claims.Domain.AssemblyInfo.cs
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\Claims.Domain.csproj.CoreCompileInputs.cache
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\Claims.Domain.dll
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\ref\Claims.Domain.dll
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\Claims.Domain.pdb

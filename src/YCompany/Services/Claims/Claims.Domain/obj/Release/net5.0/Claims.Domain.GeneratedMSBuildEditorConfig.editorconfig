@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Claims.Domain
-build_property.ProjectDir = C:\Users\shailendrasharma\Source\Repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\
+build_property.ProjectDir = C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\
