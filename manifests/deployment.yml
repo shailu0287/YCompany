@@ -1,19 +1,52 @@
-apiVersion : apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: claimapi 
+  name: claimsapi-deployment
+  labels:
+    app: claimsapi
 spec:
   replicas: 1
   selector:
     matchLabels:
-      app: claimapi
+      app: claimsapi
   template:
     metadata:
       labels:
-        app: claimapi 
+        app: claimsapi
     spec:
       containers:
-        - name: claimapi 
-          image: claimacr.azurecr.io/claimapi
+        - name: claimsapi
+          image: claimacr.azurecr.io/claimapi:v5
+          imagePullPolicy: IfNotPresent   
+                
           ports:
-          - containerPort: 80
+            - containerPort: 80
+          env:
+            - name: ASPNETCORE_ENVIRONMENT
+              value: Development
+            - name: DatabaseSettings__ConnectionString
+              valueFrom:
+                  secretKeyRef:
+                    name: mssql-secret
+                    key: SA_PASSWORD
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "0.1"
+            limits:
+              memory: "128Mi"
+              cpu: "0.3"
+      imagePullSecrets:
+        - name: acr-secret
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: claimsapi-service
+spec:  
+  type: LoadBalancer
+  selector:
+    app: claimsapi
+  ports:
+    - protocol: TCP
+      port: 80
