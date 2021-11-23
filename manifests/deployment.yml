@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: claimapi 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: claimapi
+  template:
+    metadata:
+      labels:
+        app: claimapi 
+    spec:
+      containers:
+        - name: claimapi 
+          image: claimacr.azurecr.io/claimapi
+          ports:
+          - containerPort: 80
