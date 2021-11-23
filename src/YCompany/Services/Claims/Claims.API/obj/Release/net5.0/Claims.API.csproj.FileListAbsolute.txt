@@ -86,3 +86,4 @@ C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.API\obj\Release\net5.0\ref\Claims.API.dll
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.API\obj\Release\net5.0\Claims.API.pdb
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.API\obj\Release\net5.0\Claims.API.genruntimeconfig.cache
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.API\obj\Release\net5.0\Claims.API.csproj.CopyComplete

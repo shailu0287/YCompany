@@ -57,15 +57,15 @@ namespace Claims.API.Controllers
             return Ok(result);
         }
 
-        //[HttpPut(Name = "UpdateClaim")]
-        //[ProducesResponseType(StatusCodes.Status204NoContent)]
-        //[ProducesResponseType(StatusCodes.Status404NotFound)]
-        //[ProducesDefaultResponseType]
-        //public async Task<ActionResult> UpdateClaim([FromBody] UpdateClaimCommand command)
-        //{
-        //    await _mediator.Send(command);
-        //    return NoContent();
-        //}
+        [HttpPut(Name = "UpdateClaim")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        [ProducesDefaultResponseType]
+        public async Task<ActionResult> UpdateClaim()
+        {
+            
+            return  NoContent();
+        }
 
     }
 }

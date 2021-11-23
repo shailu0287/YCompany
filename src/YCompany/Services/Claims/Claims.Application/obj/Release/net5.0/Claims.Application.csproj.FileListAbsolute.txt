@@ -12,3 +12,4 @@ C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Release\net5.0\Claims.Application.dll
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Release\net5.0\ref\Claims.Application.dll
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Release\net5.0\Claims.Application.pdb
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Application\obj\Release\net5.0\Claims.Application.csproj.CopyComplete

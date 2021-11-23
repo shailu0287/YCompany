@@ -9,3 +9,4 @@ C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\Claims.Domain.dll
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\ref\Claims.Domain.dll
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\Claims.Domain.pdb
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\Services\Claims\Claims.Domain\obj\Release\net5.0\Claims.Domain.csproj.AssemblyReference.cache

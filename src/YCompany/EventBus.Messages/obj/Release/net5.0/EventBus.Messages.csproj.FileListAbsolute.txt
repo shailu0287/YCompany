@@ -9,3 +9,4 @@ C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\EventBus
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\EventBus.Messages\obj\Release\net5.0\EventBus.Messages.dll
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\EventBus.Messages\obj\Release\net5.0\ref\EventBus.Messages.dll
 C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\EventBus.Messages\obj\Release\net5.0\EventBus.Messages.pdb
+C:\Users\shailendrasharma\source\repos\shailu0287\YCompany\src\YCompany\EventBus.Messages\obj\Release\net5.0\EventBus.Messages.csproj.AssemblyReference.cache
