@@ -6019,11 +6019,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj",
       "projectName": "Claims.Infrastructure",
-      "projectPath": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\Claims.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\shailendrasharma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\shailendrasharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -6040,8 +6040,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj": {
-              "projectPath": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj"
+            "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj": {
+              "projectPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.Application\\Claims.Application.csproj"
             }
           }
         }

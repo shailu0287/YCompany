@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "157yCSidHtuYlH0KyIpKjqqletgesu735caJz1CPMHM+s+UK+r2gSsAKzbTvgcRhoY9m7k98gR3bgjONaBorgw==",
+  "dgSpecHash": "pR+Wica5OcqxKF65GbgK8R+fsnDTTGChx27TgWK+TPx3UnBVDRM5OjTAU9pbsBB6Dd0DZomU/IbiVg8xPiNhgQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.API\\Claims.API.csproj",
+  "projectFilePath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Services\\Claims\\Claims.API\\Claims.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shailendrasharma\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\shailendrasharma\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

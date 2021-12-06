@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\YComapny.Web.UI.csproj": {}
+    "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\YComapny.Web.UI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\YComapny.Web.UI.csproj": {
+    "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\YComapny.Web.UI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\YComapny.Web.UI.csproj",
+        "projectUniqueName": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\YComapny.Web.UI.csproj",
         "projectName": "YComapny.Web.UI",
-        "projectPath": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\YComapny.Web.UI.csproj",
+        "projectPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\YComapny.Web.UI.csproj",
         "packagesPath": "C:\\Users\\shailendrasharma\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shailendrasharma\\source\\repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\obj\\",
+        "outputPath": "C:\\Users\\shailendrasharma\\Source\\Repos\\shailu0287\\YCompany\\src\\YCompany\\Web.UI\\YComapny.Web.UI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\shailendrasharma\\AppData\\Roaming\\NuGet\\NuGet.Config",
